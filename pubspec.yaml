@@ -1,0 +1,17 @@
+name: flutter_bloc_extensions
+description: Collection of helper objects extending flutter_bloc library.
+version: 0.1.0
+author: Ondřej Kunc <kunc.ondrej1@gmail.com>
+homepage: https://github.com/OndrejKunc/flutter_bloc_extensions
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^0.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
