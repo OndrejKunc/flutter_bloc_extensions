@@ -49,7 +49,8 @@ DisposableBlocProvider(
 
 //Inside MyPage
 Widget build(BuildContext context) {
-    var bloc = BlocProvider.of<LoginBloc>(context); 
+    var bloc = BlocProvider.of<LoginBloc>(context);
+    //...
 }
 ```
 Since `DisposableBlocProvider` creates `BlocProvider` under the hood you can retrieve the instance via `BlocProvider.of` as you would do with regular `BlocProvider`.
