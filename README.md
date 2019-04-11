@@ -1,5 +1,7 @@
 # flutter_bloc_extensions
 
+[![pub package](https://img.shields.io/pub/v/flutter_bloc_extensions.svg)](https://pub.dartlang.org/packages/flutter_bloc_extensions)
+
 Collection of helper objects built on top of awesome library by Felix Angelov `flutter_bloc` : https://github.com/felangel/bloc/
 
 ## Features

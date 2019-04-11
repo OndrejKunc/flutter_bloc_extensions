@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 /// A simple wrapper around [BlocProvider] which also
 /// handles calling the dispose method on the [bloc].
-/// 
+///
 /// Bloc must be created using `blocFactory` so you can
 /// create it directly inside build function and prevent
 /// multiple instances to be created on each build.
@@ -20,7 +20,8 @@ class DisposableBlocProvider<T extends Bloc<dynamic, dynamic>>
   }) : super(key: key);
 
   @override
-  _DisposableBlocProviderState createState() => _DisposableBlocProviderState<T>();
+  _DisposableBlocProviderState createState() =>
+      _DisposableBlocProviderState<T>();
 }
 
 class _DisposableBlocProviderState<T extends Bloc<dynamic, dynamic>>
