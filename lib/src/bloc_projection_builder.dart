@@ -23,11 +23,11 @@ typedef StateConverter<S, ViewModel> = ViewModel Function(
 /// Widget is then built using [ViewModelBuilder] `builder` function
 /// which contains converted state.
 ///
-/// As a performance optimization, the Widget can be rebuilt only when 
+/// As a performance optimization, the Widget can be rebuilt only when
 /// the [ViewModel] changes. In order for this to work correctly, you
-/// must implement [==] and [hashCode] for the [ViewModel], and keep 
+/// must implement [==] and [hashCode] for the [ViewModel], and keep
 /// the [distinct] option set to true when creating [BlocProjectionBuilder].
-/// When distinct is set to false, rebuild will be called on each 
+/// When distinct is set to false, rebuild will be called on each
 /// state change.
 class BlocProjectionBuilder<E, S, ViewModel>
     extends BlocProjectionBuilderBase<E, S, ViewModel> {
