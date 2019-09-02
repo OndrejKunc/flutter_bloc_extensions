@@ -1,5 +1,12 @@
 # flutter_bloc_extensions
 
+## Obsolete notice
+
+All the problems this library was trying to solve were already implemented in the `flutter_bloc` and this library is no longer compatible with the latest version.
+There can be other extensions available in the future but right now this library just provides slightly different API to the same concept as the `flutter_bloc`.
+
+## About
+
 [![pub package](https://img.shields.io/pub/v/flutter_bloc_extensions.svg)](https://pub.dartlang.org/packages/flutter_bloc_extensions)
 
 Collection of helper objects built on top of awesome library by Felix Angelov `flutter_bloc` : https://github.com/felangel/bloc/
